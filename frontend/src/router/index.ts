@@ -43,6 +43,11 @@ const routes: Array<RouteConfig> = [
       name: 'Dashboard',
       component: () => import('./../views/loan/Dashboard.vue'),
     },
+    {
+      path: 'loan/simulator',
+      name: 'Simulator',
+      component: () => import('./../views/loan/Simulator.vue'),
+    },
   ]},
   
   

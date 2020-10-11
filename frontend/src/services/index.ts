@@ -11,3 +11,4 @@ export const auth = async (data:{email: string, password:string}) => {
 };
 
 
+

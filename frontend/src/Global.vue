@@ -16,6 +16,7 @@ export default defineComponent({
 
   --color-background: #fafafa;
   --color-text-base: #000000;
+  --color-text-light: #444444;
   --color-primary-ligth: #ff0001;
   --color-primary: #cc0001;
   --color-primary-dark: #990001;
