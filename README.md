@@ -5,7 +5,7 @@
 
 <h1 align="center">
 <br />
-    <img src="https://i.imgur.com/9kW1mcP.jpg" alt="logo" border="0">
+    <img src="https://i.imgur.com/SDO5p1t.jpg" alt="logo" border="0">
 <br />
 <br />
 
@@ -52,6 +52,8 @@
 ####  ○  📲 [Protótipo](https://www.figma.com/proto/45HdMe1IqbplLdqSwmxtvk/judiciario-exponencial?node-id=0%3A3&scaling=scale-down)
 
 ####  ○  📇 [Code](https://github.com/BraianMendes/bot-juris-facil-Nodejs/)
+
+####  ○  📊 [Análise](https://colab.research.google.com/drive/1ojMKkNAlXkqPulTw_U8A4F9Z2WzGBBiB?usp=sharing#scrollTo=Ncgn3axA3iDl)
 
 ####  ○  🖼️ [Apresentação](https://drive.google.com/file/d/1flH9I26QBxNxpvaw4018rT975wkbV0ds/view?usp=sharing)
 
