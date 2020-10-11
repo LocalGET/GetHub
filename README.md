@@ -65,7 +65,7 @@
     <td align="center"><a href="https://github.com/xmacedo/"><img src="https://i.imgur.com/WZVAiPf.jpg" width="100px;" alt=""/><br /><sub><b> Felipe Macedo</b></sub></a><br /><a href="https://www.linkedin.com/in/felipexmacedo/" title="Site">💻</a> <a href="https://www.linkedin.com/in/felipexmacedo/" title="Email">📧</a> </td>
     <td align="center"><a href="https://github.com/lmaiaa/"><img src="https://i.imgur.com/tSQQgU7.jpg" width="100px;" alt=""/><br /><sub><b> Luccas Maia</b></sub></a><br /><a href="https://www.linkedin.com/in/luccasmaia/" title="Site">💻</a> <a href="https://www.linkedin.com/in/luccasmaia/" title="Email">📧</a> </td>
     <td align="center"><a href="https://mrncstt.github.io/posts/"><img src="https://i.imgur.com/UMWYzzG.jpg" width="100px;" alt=""/><br /><sub><b>Mariana Costa</b></sub></a><br /><a href="marianacosta.data@gmail.com" title="Site">💻</a> <a href="https://mrncstt.github.io/" title="Email">📧</a> </td>
-    <td align="center"><a href="https://www.linkedin.com/in/wagner-mariano-msc-17a9bb56/"><img src="https://i.imgur.com/Nz1O55U.jpg" width="100px;" alt=""/><br /><sub><b> Wagner Mariano<b></sub></a><br /><a href="https://www.linkedin.com/in/wagner-mariano-msc-17a9bb56/" title="Site">💻</a> <a href="https://www.linkedin.com/in/wagner-mariano-msc-17a9bb56/" title="Email">📧</a> </td>
+    <td align="center"><a href="https://www.linkedin.com/in/wagner-mariano"><img src="https://i.imgur.com/Nz1O55U.jpg" width="100px;" alt=""/><br /><sub><b> Wagner Mariano<b></sub></a><br /><a href="https://www.linkedin.com/in/wagner-mariano/" title="Site">💻</a> <a href="https://www.linkedin.com/in/wagner-mariano" title="Email">📧</a> </td>
 </table>
 
 
