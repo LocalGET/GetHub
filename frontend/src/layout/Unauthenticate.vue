@@ -1,6 +1,6 @@
 <template>
   <div class="layout-box">
-    <img src="/img/getnet_logo.png" alt="logo" class="logo" />
+    <img src="/img/gethub_logo.png" alt="logo" class="logo" />
     <div class="select-buttons" :style="colors">
       <button class="btn-login" @click="login($router, $route.path)">
         Entrar

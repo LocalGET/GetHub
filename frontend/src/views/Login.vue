@@ -1,14 +1,14 @@
 <template>
   <div class="login-box">
     <div class="inputs">
-      <InputDefault title="E-mail" type="email" />
-      <InputDefault title="Senha" type="password" />
+      <InputDefault title="E-mail" type="email" icon="account" />
+      <InputDefault title="Senha" type="password" icon="lock" />
     </div>
     <div class="select-box">
       <CheckboxDefault id="remember" label="Lembrar-me" />
       <router-link to="/forget">Esqueceu a senha?</router-link>
     </div>
-    <ButtonDefault name="Fazer login" />
+    <ButtonDefault name="Fazer login" @clicked="$router.push('/home')" />
   </div>
 </template>
 

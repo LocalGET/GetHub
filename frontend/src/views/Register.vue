@@ -1,11 +1,11 @@
 <template>
   <div class="register-box">
     <div class="inputs">
-      <InputDefault title="E-mail" type="email" />
-      <InputDefault title="Senha" type="password" />
-      <InputDefault title="Confirmar senha" type="password" />
+      <InputDefault title="E-mail" type="email" icon="account" />
+      <InputDefault title="Senha" type="password" icon="lock" />
+      <InputDefault title="Confirmar senha" type="password" icon="lock" />
     </div>
-    <ButtonDefault name="Cadastre-se" />
+    <ButtonDefault name="Cadastre-se" @clicked="$router.push('/home')" />
   </div>
 </template>
 
