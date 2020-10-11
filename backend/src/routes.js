@@ -1,12 +1,9 @@
 const { Router } = require('express');
-const DevController = require('./controllers/DevController')
-const SearchController = require('./controllers/SearchController')
-
+const userController = require('./controllers/UserController');
+const authController = require('./controllers/AuthController');
 const routes = Router();
 
-routes.get('/clients', DevController.index);
-routes.post('/devs', DevController.store);
-
-routes.get('/search', SearchController.index);
+routes.get('/users', userController.index);
+routes.post('/auth/register', authController.register);
 
 module.exports = routes;
