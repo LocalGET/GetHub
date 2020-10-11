@@ -12,13 +12,13 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "types": ["webpack-env", "vuetify"],
+    "types": ["webpack-env"],
     "paths": {
       "~/*": ["/*"],
-      "@/*": ["src/*"]
+      "@/*": ["frontend/src/*"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/tests/**/*.ts", "src/tests/**/*.tsx"],
+  "include": ["frontend/src/**/*.ts", "frontend/src/**/*.tsx", "frontend/src/**/*.vue"],
   "exclude": ["node_modules"]
 }
