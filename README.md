@@ -24,7 +24,7 @@
 
 ##### Desenvolvimento
 - [Node.js](https://nodejs.org/)
-
+- [SQL lite](https://www.sqlite.org/index.html)
 ##### Análises
 - [Python](https://www.python.org/)
     - [Pandas](https://pandas.pydata.org/)
