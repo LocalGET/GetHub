@@ -15,7 +15,7 @@
     "types": ["webpack-env"],
     "paths": {
       "~/*": ["/*"],
-      "@/*": ["src/*"]
+      "@/*": ["/frontend/src/*"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },
