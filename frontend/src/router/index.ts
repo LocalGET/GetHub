@@ -5,11 +5,7 @@ Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
 
-  {
-    path: '/home',
-    name: 'Home',
-    component: () => import('@/views/Home.vue')
-  },
+  
   {
     path: '/',
     name: 'Unauthenticate',
@@ -27,7 +23,17 @@ const routes: Array<RouteConfig> = [
       },
 
     ]
-  },
+  },{
+  path: '/',
+  name: 'Authenticate',
+  component: () => import('@/layout/Authenticate.vue'),
+  children:[
+    {
+      path: 'home',
+      name: 'Home',
+      component: () => import('@/views/Home.vue')
+    },
+  ]},
   
   
   {
