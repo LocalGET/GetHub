@@ -1,9 +1,9 @@
 import axios from 'axios';
-import * as Types from '@/types';
+import * as Types from './../../types';
 //import authHeader from './auth-header';
 
 export const api = axios.create({
-  baseURL: process.env.VUE_APP_API_URL
+  baseURL: "http://localhost:3333/"
 });
 
 const onError = ({ response, stack, message }: Types.ErrorAxios) => {
