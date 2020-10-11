@@ -1,9 +1,8 @@
-const express = require('express');
-const User = require('../models/user');
+const connection = require('../database/connection');
 
 module.exports = {
     async index(req, res){
-        const users = await User.find();
-        return res.json(users); 
+        const users = await connection('users').select('*');
+        return res.json( users );
     }
 };
