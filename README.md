@@ -13,7 +13,7 @@
 
 #### [GetHub](https://github.com/equipe25-GetHub/GetHub)
 
-[escrever textoo de definição do produto]
+[escrever texto de definição do produto]
 
  
 
@@ -35,7 +35,25 @@
 
 ### Testemunhos
 
-### Protótipo
+
+
+### Videos
+
+<table>
+  <tr>
+    <td align="center"><a href="https://youtu.be/sX6kNxy65wQ"><img src="https://i.imgur.com/lYsrzO5.jpg" width="280px;" alt=""/><br /><sub><b>Pitch</b></sub></a><br /><a href="https://youtu.be/sX6kNxy65wQ" title="YouTube">🎥</a></td>
+    <td align="center"><a href="https://youtu.be/t_9zKLEQEOc"><img src="https://i.imgur.com/E1aiADl.jpg" width="280px;" alt=""/><br /><sub><b>Demo</b></sub></a><br /><a href="https://youtu.be/t_9zKLEQEOc" title="YouTube">🎥</a></td>
+</table>
+
+### Entregas
+
+####  ○  🏆 [MVP](https://api.whatsapp.com/send?phone=14155238886&text=join%20edge-bent)
+
+####  ○  📲 [Protótipo](https://www.figma.com/proto/45HdMe1IqbplLdqSwmxtvk/judiciario-exponencial?node-id=0%3A3&scaling=scale-down)
+
+####  ○  📇 [Code](https://github.com/BraianMendes/bot-juris-facil-Nodejs/)
+
+####  ○  🖼️ [Apresentação](https://drive.google.com/file/d/1flH9I26QBxNxpvaw4018rT975wkbV0ds/view?usp=sharing)
 
 ### Time
 
@@ -51,4 +69,4 @@
 
 ## Licença
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+This project is licensed under the Hack Code of Conduct - see the [LICENSE](https://hackcodeofconduct.org/) page for details.
