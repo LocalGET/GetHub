@@ -13,14 +13,19 @@
 
 #### [GetHub](https://github.com/equipe25-GetHub/GetHub)
 
-[escrever texto de definição do produto]
+Em um mercado cada vez mais competitivo e com soluções tecnológicas acessíveis, alguns desafios para os micros e pequenos negócios continuam distantes de uma solução. A falta de acesso ao crédito e a dificuldade denegociação com fornecedores são problemasque dificultam a crescimento do negócio.
+
+O GetHub é uma ferramenta que conecta os clientes em um ambiente exclusivo que facilita o contato com diversos fornecedores e clientes em um ambiente seguro e de fácil uso. Com uso de inteligência artificial, o GetHub auxilia seus clientes na gestão de seunegócio. Com um programa de gamification que possibilita o acesso a crédito de formamais Segura, Fácil e Transparente.
+
+
+
+
+
 
  
 
 
 #### Recursos usados
-##### Prototipação
-- [Adobe XD](https://xd.adobe.com/view/345aa528-6925-4d80-9473-34cc34bd5f5e-6109/screen/3462acc4-e57e-45eb-a559-e150be9d005b/)
 
 ##### Desenvolvimento
 - [Node.js](https://nodejs.org/)
@@ -48,8 +53,6 @@
 ### Entregas
 
 ####  ○  🏆 [MVP](https://api.whatsapp.com/send?phone=14155238886&text=join%20edge-bent)
-
-####  ○  📲 [Protótipo](https://www.figma.com/proto/45HdMe1IqbplLdqSwmxtvk/judiciario-exponencial?node-id=0%3A3&scaling=scale-down)
 
 ####  ○  📇 [Code](https://github.com/BraianMendes/bot-juris-facil-Nodejs/)
 
