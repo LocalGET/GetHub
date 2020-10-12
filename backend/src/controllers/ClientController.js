@@ -36,12 +36,18 @@ module.exports = {
         }
     },
     async findByUser(req, res){
-        const { user_id }  = request.params;
+        const  user_id = req.headers.authorization;
         const clients = await connection('client')
             .where('user_id', user_id)
             .select('*');
 
         return res.json( clients );
     
+    },
+    async delete(req, res){
+        const  id = req.headers.authorization;
+        await connection('clients').where('user_id', id).delete();
+
+        return res.status(204).send("Cliente apagado!");
     },
 };

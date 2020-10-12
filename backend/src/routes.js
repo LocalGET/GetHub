@@ -10,16 +10,19 @@ const interestController = require('./controllers/ProposalInterestController');
 const routes = Router();
 
 routes.get('/users', userController.index);
+routes.delete('/users', userController.delete);
 
 routes.post('/auth/register', authController.register);
 routes.post('/auth/signup', authController.signup);
 
-routes.get('/chat',chatController.list);
-routes.get('/chat/:originator_id',chatController.getMessage);
+routes.get('/chats',chatController.list);
+routes.get('/chat',chatController.getMessage);
 routes.post('/chat/send',chatController.sendMessage);
 
-routes.get('/client', clientController.index);
+routes.get('/clients', clientController.index);
+routes.get('/client',clientController.findByUser);
 routes.post('/client', clientController.create);
+routes.delete('/client', clientController.delete);
 
 routes.get('/score', scoreController.index);
 routes.post('/score', scoreController.create);

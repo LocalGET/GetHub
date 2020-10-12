@@ -18,7 +18,8 @@ module.exports = {
         }
     },
     async getMessage(req, res){
-        const { originator_id }  = request.params;
+
+        const  originator_id = req.headers.authorization;
         
         const msg = await connection('chats')
         .where('originator_id', originator_id)
@@ -26,7 +27,7 @@ module.exports = {
         .first();
 
         if (!msg) {
-            return res.status(401).json({ error : 'Mensagens nao encontradas.'});
+            return res.status(401).json({ error : 'Nenhuma mensagem encontrada.'});
         }
  
         return res.status(200).send(msg);

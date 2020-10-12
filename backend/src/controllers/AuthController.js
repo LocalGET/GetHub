@@ -13,7 +13,11 @@ const bcrypt     = require('bcryptjs');
             .first();
 
             if (users) {
-                return res.status(400).json({ error : 'Usuario ja existente'});
+                return res.status(400).json({ error : 'Usuario já existente'});
+            }
+
+            if (email=="") {
+                return res.status(400).json({ error : 'Para cadastro é necessário preencher o e-mail!'});
             }
 
             const id = crypto.randomBytes(10).toString('HEX');
@@ -48,7 +52,7 @@ const bcrypt     = require('bcryptjs');
             return res.status(401).json({ error : 'Senha invalida.'});
         }
  
-        return res.status(200).send(users);
+        return res.status(200).json({id: users.id});
 
     }
 };
