@@ -37,7 +37,7 @@ module.exports = {
     },
     async findByUser(req, res){
         const  user_id = req.headers.authorization;
-        const clients = await connection('client')
+        const clients = await connection('clients')
             .where('user_id', user_id)
             .select('*');
 
