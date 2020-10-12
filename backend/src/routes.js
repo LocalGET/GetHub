@@ -4,6 +4,8 @@ const clientController = require('./controllers/ClientController');
 const authController   = require('./controllers/AuthController');
 const chatController   = require('./controllers/ChatController');
 const scoreController  = require('./controllers/ScoreController');
+const proposalsController = require('./controllers/ProposalsController');
+const interestController = require('./controllers/ProposalInterestController');
 
 const routes = Router();
 
@@ -22,7 +24,15 @@ routes.post('/client', clientController.create);
 routes.get('/score', scoreController.index);
 routes.post('/score', scoreController.create);
 
-//routes.get('/client',clientController.index);
-//routes.post('/client',clientController.createClient);
+routes.get('/proposals', proposalsController.index);
+routes.get('/proposals/:client_id', proposalsController.findByClient);
+routes.post('/proposals', proposalsController.create);
+
+routes.get('/interest', interestController.index);
+routes.get('/interest/:proposal_id', interestController.findByProposalId);
+routes.post('/interest', interestController.create);
+
+
+interestController
 
 module.exports = routes;
