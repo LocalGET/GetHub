@@ -24,7 +24,8 @@ routes.get('/client',clientController.findByUser);
 routes.post('/client', clientController.create);
 routes.delete('/client', clientController.delete);
 
-routes.get('/score', scoreController.index);
+routes.get('/scores', scoreController.index);
+routes.get('/score',  scoreController.findByUser);
 routes.post('/score', scoreController.create);
 
 routes.get('/proposals', proposalsController.index);

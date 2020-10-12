@@ -35,4 +35,17 @@ module.exports = {
             return res.status(400).json({error: 'Falha no registro do cliente'});
         }
     },
+    async findByUser(req, res){
+        const  user_id = req.headers.authorization;
+
+        console.log(user_id);
+        
+        const clients = await  connection.select('*')
+                .table('scores')
+                .where('clients.user_id',user_id)
+                .join('clients','clients.id','scores.client_id');
+
+        return res.json( clients );
+    
+    },
 };
