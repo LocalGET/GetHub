@@ -19,8 +19,6 @@
 
 
 #### Recursos usados
-##### Prototipação
-- [Adobe XD](https://xd.adobe.com/view/345aa528-6925-4d80-9473-34cc34bd5f5e-6109/screen/3462acc4-e57e-45eb-a559-e150be9d005b/)
 
 ##### Desenvolvimento
 - [Node.js](https://nodejs.org/)
@@ -48,8 +46,6 @@
 ### Entregas
 
 ####  ○  🏆 [MVP](https://api.whatsapp.com/send?phone=14155238886&text=join%20edge-bent)
-
-####  ○  📲 [Protótipo](https://www.figma.com/proto/45HdMe1IqbplLdqSwmxtvk/judiciario-exponencial?node-id=0%3A3&scaling=scale-down)
 
 ####  ○  📇 [Code](https://github.com/BraianMendes/bot-juris-facil-Nodejs/)
 
