@@ -13,7 +13,14 @@
 
 #### [GetHub](https://github.com/equipe25-GetHub/GetHub)
 
-[escrever texto de definição do produto]
+Em um mercado cada vez mais competitivo e com soluções tecnológicas acessíveis, alguns desafios para os micros e pequenos negócios continuam distantes de uma solução. A falta de acesso ao crédito e a dificuldade denegociação com fornecedores são problemasque dificultam a crescimento do negócio.
+
+O GetHub é uma ferramenta que conecta os clientes em um ambiente exclusivo que facilita o contato com diversos fornecedores e clientes em um ambiente seguro e de fácil uso. Com uso de inteligência artificial, o GetHub auxilia seus clientes na gestão de seunegócio. Com um programa de gamification que possibilita o acesso a crédito de formamais Segura, Fácil e Transparente.
+
+
+
+
+
 
  
 
