@@ -7,7 +7,7 @@ module.exports = {
         return res.json( clients );
     },
     async create(req, res){
-        const { name, type, city, uf, user_id } = req.body;
+        const { name, type, city, uf, user_id, limit} = req.body;
         try{
             const client = await connection('clients')
             .where('user_id', user_id)
@@ -27,7 +27,7 @@ module.exports = {
                 return res.status(401).json({ error : 'Usario nao encontrado.'});
             }
 
-            await connection('clients').insert({name, type, city, uf, user_id});
+            await connection('clients').insert({name, type, city, uf, user_id, limit});
 
             return res.json( "ok" );
 
