@@ -1,11 +1,14 @@
-import { api } from '@/utils/api/api-instance';
-import * as Types from '@/types';
-/*
-export const register = async (data: Types.RegisterCompany): Promise<Types.Response<{ response: string }>> => {
-  const response: string = await api.post('/register-company/', data, {
-    headers: Authentication.getters.getHeader.value
-  });
-  return { message: response, data: { response } };
+import { api } from './../utils/api/api-instance';
+
+export const register = async (data:{email: string, password:string}) => {
+  const response: {id: string} = await api.post('/auth/register', data);
+  return response
 };
-*/
+
+export const auth = async (data:{email: string, password:string}) => {
+  const response = await api.post('/auth/signup', data);
+  return response
+};
+
+
 

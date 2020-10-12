@@ -33,6 +33,21 @@ const routes: Array<RouteConfig> = [
       name: 'Home',
       component: () => import('@/views/Home.vue')
     },
+    {
+      path: 'network/search',
+      name: 'Network',
+      component: () => import('./../views/network/Search.vue'),
+    },
+    {
+      path: 'loan/dashboard',
+      name: 'Dashboard',
+      component: () => import('./../views/loan/Dashboard.vue'),
+    },
+    {
+      path: 'loan/simulator',
+      name: 'Simulator',
+      component: () => import('./../views/loan/Simulator.vue'),
+    },
   ]},
   
   

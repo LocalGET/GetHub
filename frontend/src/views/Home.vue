@@ -7,7 +7,7 @@
           <img src="/img/multitask.svg" alt="recebíveis" />
           <h3>Recebíveis</h3>
         </div>
-        <div class="card">
+        <div class="card" @click="$router.push('/loan/dashboard')">
           <img src="/img/chat.svg" alt="solicitações" />
           <h3>Solicitações</h3>
         </div>
@@ -15,8 +15,8 @@
           <img src="/img/idea.svg" alt="gestão" />
           <h3>Gestão</h3>
         </div>
-        <div class="card">
-          <img src="/img/people.svg" alt="gestão" />
+        <div class="card" @click="$router.push('/network/search')">
+          <img src="/img/people.svg" alt="rede" />
           <h3>Rede</h3>
         </div>
       </div>

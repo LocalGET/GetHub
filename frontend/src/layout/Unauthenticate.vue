@@ -15,14 +15,23 @@
   </div>
 </template>
 
-<script lang='ts'>
+<script lang="ts">
 import { defineComponent, reactive } from '@vue/composition-api';
+import VueRouter, { Route, RouteRecord, RouterOptions } from 'vue-router';
+import * as Types from './../types';
 
 export default defineComponent({
   setup(props, context) {
-    const colors = reactive<object>({});
+    const colors = reactive<Types.Colors>({
+      '--color-login': '',
+      '--color-text-login': '',
+      '--color-hover-login': '',
+      '--color-register': '',
+      '--color-text-register': '',
+      '--color-hover-register': ''
+    });
 
-    function login(router, path) {
+    function login(router: VueRouter, path: string) {
       (colors['--color-login'] = `var(--color-primary)`),
         (colors['--color-text-login'] = 'var(--color-button-text-primary)'),
         (colors['--color-hover-login'] = 'var(--color-primary-ligth)'),
@@ -32,7 +41,7 @@ export default defineComponent({
 
       if (path != '/login') router.push('/login');
     }
-    function register(router, path) {
+    function register(router: VueRouter, path: string) {
       (colors['--color-login'] = `var(--color-secundary)`),
         (colors['--color-text-login'] = 'var(--color-button-text-secundary)'),
         (colors['--color-hover-login'] = 'var(--color-button-hover)'),
