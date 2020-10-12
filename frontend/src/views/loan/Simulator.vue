@@ -1,6 +1,6 @@
 <template>
   <div class="simulator-box">
-    <h3>Simulador</h3>
+    <h2>Simulador</h2>
     <InputDefault title="Valor a resgatar" v-model="value" icon="cash-multiple" />
   </div>
 </template>
@@ -10,12 +10,19 @@ import { defineComponent, ref } from '@vue/composition-api';
 import InputDefault from './../../components/inputs/InputDefault.vue';
 export default defineComponent({
   components: { InputDefault },
-  setup() {
+  setup(props, context) {
     const value = ref('100000');
+    console.log(context.root.$router);
     return { value };
   }
 });
 </script>
 
-<style>
+<style lang="scss">
+.simulator-box {
+  h2 {
+    text-align: center;
+    margin: 20px;
+  }
+}
 </style>
