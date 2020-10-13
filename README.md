@@ -38,8 +38,8 @@ A GetHub é uma plataforma que conecta os clientes em um ambiente exclusivo que 
 
 <table>
   <tr>
-    <td align="center"><a href="https://youtu.be/iRXSJpn3cZk"><img src="https://imgur.com/C4xgwJG.jpg" width="280px;" alt=""/><br /><sub><b>Pitch</b></sub></a><br /><a href="https://youtu.be/iRXSJpn3cZk" title="YouTube">🎥</a></td>
-    <td align="center"><a href="https://youtu.be/"><img src="https://i.imgur.com/L6lvmVE.jpg" width="280px;" alt=""/><br /><sub><b>Demo</b></sub></a><br /><a href="https://youtu.be/" title="YouTube">🎥</a></td>
+    <td align="center"><a href="https://youtu.be/iRXSJpn3cZk" target="_blank"><img src="https://imgur.com/IytQso8.jpg" width="280px;" alt=""/><br /><sub><b>Pitch</b></sub></a><br /><a href="https://youtu.be/iRXSJpn3cZk" title="YouTube">🎥</a></td>
+    <td align="center"><a href="https://youtu.be/" target="_blank"><img src="https://imgur.com/C4xgwJG.jpg" width="280px;" alt=""/><br /><sub><b>Demo</b></sub></a><br /><a href="https://youtu.be/" title="YouTube">🎥</a></td>
 </table>
 
 ### Entregas
