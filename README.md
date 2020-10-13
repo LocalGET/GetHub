@@ -13,16 +13,9 @@
 
 #### [GetHub](https://github.com/equipe25-GetHub/GetHub)
 
-Em um mercado cada vez mais competitivo e com soluções tecnológicas acessíveis, alguns desafios para os micros e pequenos negócios continuam distantes de uma solução. A falta de acesso ao crédito e a dificuldade denegociação com fornecedores são problemasque dificultam a crescimento do negócio.
+Em um mercado cada vez mais competitivo e com soluções tecnológicas acessíveis, alguns desafios para os micros e pequenos negócios continuam distantes de uma solução. A falta de acesso ao crédito e a dificuldade de negociação com fornecedores são problemas que dificultam o crescimento do negócio.
 
-O GetHub é uma ferramenta que conecta os clientes em um ambiente exclusivo que facilita o contato com diversos fornecedores e clientes em um ambiente seguro e de fácil uso. Com uso de inteligência artificial, o GetHub auxilia seus clientes na gestão de seunegócio. Com um programa de gamification que possibilita o acesso a crédito de formamais Segura, Fácil e Transparente.
-
-
-
-
-
-
- 
+A GetHub é uma plataforma que conecta os clientes em um ambiente exclusivo que facilita o contato com diversos fornecedores em um ambiente seguro e de fácil uso. Com machine learning e inteligência artificial, a GetHub auxilia seus clientes na gestão do seu negócio. Com um programa de gamification que possibilita o acesso a crédito de forma mais Segura, Fácil e Transparente.
 
 
 #### Recursos usados
@@ -45,7 +38,7 @@ O GetHub é uma ferramenta que conecta os clientes em um ambiente exclusivo que 
 
 <table>
   <tr>
-    <td align="center"><a href="https://youtu.be/iRXSJpn3cZk"><img src="https://i.imgur.com/4sjwN1J.jpg" width="280px;" alt=""/><br /><sub><b>Pitch</b></sub></a><br /><a href="https://youtu.be/iRXSJpn3cZk" title="YouTube">🎥</a></td>
+    <td align="center"><a href="https://youtu.be/iRXSJpn3cZk"><img src="https://drive.google.com/file/d/1v14EI2RLp5pF1F4jc_BhZP0ioViCsox7/view?usp=sharing" width="280px;" alt=""/><br /><sub><b>Pitch</b></sub></a><br /><a href="https://youtu.be/iRXSJpn3cZk" title="YouTube">🎥</a></td>
     <td align="center"><a href="https://youtu.be/"><img src="https://i.imgur.com/L6lvmVE.jpg" width="280px;" alt=""/><br /><sub><b>Demo</b></sub></a><br /><a href="https://youtu.be/" title="YouTube">🎥</a></td>
 </table>
 
@@ -53,7 +46,9 @@ O GetHub é uma ferramenta que conecta os clientes em um ambiente exclusivo que 
 
 ####  ○  🏆 [MVP](https://gethub-hacka.web.app/)
 
-####  ○  📇 [Code - FrontEnd](https://github.com/equipe25-GetHub/frontend) [Code - BackEnd](https://github.com/equipe25-GetHub/backend)
+####  ○  📇 Code 
+##### [Front-end](https://github.com/equipe25-GetHub/frontend) 
+##### [Back-end](https://github.com/equipe25-GetHub/backend)
 
 ####  ○  📊 [Análise](https://colab.research.google.com/drive/1ojMKkNAlXkqPulTw_U8A4F9Z2WzGBBiB?usp=sharing#scrollTo=kxbVUQT2FY-2)
 
